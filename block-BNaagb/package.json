@@ -4,11 +4,15 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "start": "nodemon index.js"
   },
   "author": "AltCampus",
   "license": "GNU GPL V3",
   "dependencies": {
-    "jest": "^26.0.1"
+    "axios": "^1.3.5",
+    "express": "^4.18.2",
+    "jest": "^26.0.1",
+    "redis": "^4.6.5",
+    "socket.io": "^4.6.1"
   }
 }
